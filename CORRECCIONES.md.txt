@@ -1,0 +1,17 @@
+
+¿Qué mala práctica identificaste?
+1.	Falta de enlace al archivo CSS personalizado
+No se incluye <link rel="stylesheet" href="index.css"> en el <head>, lo cual impide aplicar los estilos definidos.
+2.	Falta de script JS vinculado
+No se encuentra la inclusión del archivo JS para que los botones y dinámicas (como actualizar el clima) funcionen.
+3.	Textos hardcodeados (por ejemplo: temperatura, ubicación, etc.)
+Para una app real, deberían venir desde la API (probablemente esto sea parte del JS que no se compartió).
+4.	Redundancia visual en elementos <div>
+Muchas secciones tienen múltiples niveles de anidamiento innecesario que podrían simplificarse.
+
+ ¿Por qué es considerada una mala práctica?
+Me parece malas prácticas ya que visualmente es dificil de comprender para alguien que revisa el código.
+ ¿Cómo la solucionaste?
+Lo solucione agregando en comentarios dentro del código en su mayoría.
+ ¿Qué beneficios aporta tu solución?
+Mayor entendimiento visual de lo que hace cada parte del código 
