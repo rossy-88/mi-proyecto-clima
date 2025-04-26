@@ -1,0 +1,27 @@
+/* Estilos base y variables */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #3498db;
+    --color-secondary: #2c3e50;
+    --color-light: #ecf0f1;
+    --color-dark: #34495e;
+    --color-success: #2ecc71;
+    --color-warning: #f39c12;
+    --color-danger: #e74c3c;
+    --color-text: #333;
+    --color-text-light: #7f8c8d;
+    --shadow-sm: 0 2px 5px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.12);
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --transition: all 0.3s ease;
+}
+
+/* Estructura y secciones por componentes aquí... */
+/* Header, Main, Footer, Dashboard, etc. */
+/* Omitido por brevedad: se recomienda dividir por archivos si es SCSS */
